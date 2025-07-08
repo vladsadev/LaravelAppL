@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Employer extends Model
 {
-    use hasFactory;
+    use HasFactory;
 
 
     public function jobs()
